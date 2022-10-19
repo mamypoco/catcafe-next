@@ -12,7 +12,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-#Steps to convert from react project
+##Steps to convert from react project
 
     1. Copy all files into the appropriate folders
     2. Replace <image> to <Image> and import Image from 'next/image'
