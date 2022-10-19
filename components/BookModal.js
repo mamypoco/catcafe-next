@@ -43,7 +43,7 @@ const BookModal = () => {
                }}
                //this is the X button to close.
             >
-               Let's Book Your Visit
+               Let&apos;s Book Your Visit
             </ModalHeader>
             <ModalBody>
                <Formik

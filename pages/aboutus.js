@@ -56,12 +56,12 @@ const About = () => {
                         focused on helping cats and other animals. We want to
                         build our brand on giving and want our customers to feel
                         good about purchases. In the cat lounge, we strive to
-                        educate visitors about cats' needs for loving homes. We
-                        have created an entry point for people to create
-                        precious interactions and memories with feline friends
-                        with the hope to inspire them to adopt or donate to
-                        benefit cats in need. At the end of the day, we want to
-                        see visitors to the cat lounge with smiles on their
+                        educate visitors about cats&apos; needs for loving
+                        homes. We have created an entry point for people to
+                        create precious interactions and memories with feline
+                        friends with the hope to inspire them to adopt or donate
+                        to benefit cats in need. At the end of the day, we want
+                        to see visitors to the cat lounge with smiles on their
                         faces and love for cats in their hearts.
                      </p>
                   </Col>

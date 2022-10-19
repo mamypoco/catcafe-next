@@ -15,7 +15,9 @@ export default function Home() {
          <Container>
             <Row className="row-content">
                <Col className="text-center">
-                  <h1 className="header">Seattle Eastsides' first cat cafe</h1>
+                  <h1 className="header">
+                     Seattle Eastsides&apos; first cat cafe
+                  </h1>
                   {/* <img
                   src={HomeImg}
                   alt="A cat with coffee laying on the yellow blanket"

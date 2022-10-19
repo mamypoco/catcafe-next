@@ -28,7 +28,7 @@ const Contact = () => {
             <Col className="mx-auto">
                <h5 md={{ size: 12, offset: 2 }}>
                   For any questions or feedback, please contact through the form
-                  and we'll reply as soon as we can.
+                  and we&apos;ll reply as soon as we can.
                </h5>
             </Col>
          </Row>
