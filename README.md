@@ -17,7 +17,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     1. Copy all files into the appropriate folders
     2. Replace <image> to <Image> and import Image from 'next/image'
     3. Replace NavLink to Link, and to= with href= and import 'next/link'
-
-4. Uninstall react-router-dom to resolve an error.
-5. Install some necessary dependencies like reactstrap and fontawesome
-6. Replaced apostrophy with &apos;
+    4. Uninstall react-router-dom to resolve an error.
+    5. Install some necessary dependencies like reactstrap and fontawesome
+    6. Replaced apostrophy with &apos;
