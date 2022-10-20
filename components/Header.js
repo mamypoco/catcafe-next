@@ -7,9 +7,10 @@ import {
    Collapse,
    NavbarToggler,
    NavbarBrand,
+   NavLink,
 } from "reactstrap";
 // import { NavLink } from "react-router-dom";
-import Link from "next/link";
+// import Link from "next/link";
 import Image from "next/image";
 
 const Header = () => {
@@ -31,29 +32,29 @@ const Header = () => {
             <Collapse isOpen={menuOpen} navbar>
                <Nav className="ms-auto" navbar>
                   <NavItem>
-                     <Link className="nav-link" href="/">
+                     <NavLink className="nav-link" href="/">
                         Home
-                     </Link>
+                     </NavLink>
                   </NavItem>
                   <NavItem>
-                     <Link className="nav-link" href="/aboutus">
+                     <NavLink className="nav-link" href="/aboutus">
                         About Us
-                     </Link>
+                     </NavLink>
                   </NavItem>
                   <NavItem>
-                     <Link className="nav-link" href="/cafemenu">
+                     <NavLink className="nav-link" href="/cafemenu">
                         Cafe Menu
-                     </Link>
+                     </NavLink>
                   </NavItem>
                   <NavItem>
-                     <Link className="nav-link" href="/adoptcat">
+                     <NavLink className="nav-link" href="/adoptcat">
                         Adopt A Cat
-                     </Link>
+                     </NavLink>
                   </NavItem>
                   <NavItem>
-                     <Link className="nav-link" href="/contactus">
+                     <NavLink className="nav-link" href="/contactus">
                         Contact
-                     </Link>
+                     </NavLink>
                   </NavItem>
                </Nav>
             </Collapse>
