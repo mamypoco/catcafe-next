@@ -16,8 +16,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
     1. Copy all files into the appropriate folders
     2. Replace <image> to <Image> and import Image from 'next/image'
-    3. Replace NavLink with Link, to= with href= and import Link 'next/link'
-    4. Uninstall react-router-dom to resolve any error.
-    5. Install dependencies for reactstrap and fontawesome
-    6. Replaced apostrophy with &apos;
-    7. Add imports for fontawesome per https://fontawesome.com/docs/web/use-with/react/use-with
+    3. You may replace Link import from 'next/link'
+    4. Change NavLink import from reactstrap instead of 'react-router-dom. Replace to= with href=.
+    5. Uninstall react-router-dom to resolve any error.
+    6. Install dependencies for reactstrap and fontawesome
+    7. Replaced apostrophy with &apos;
+    8. For issue that Fontawesome icon gets too big, add imports for fontawesome per https://fontawesome.com/docs/web/use-with/react/use-with
+    9. For footer Link, add a tag after <Link> so the css can apply.
