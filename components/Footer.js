@@ -55,28 +55,28 @@ const Footer = () => {
                   <Col lg="4" md="6" sm="12">
                      <ul className="list-unstyled">
                         <li>
-                           <Link className="footer-menu" href="/home">
-                              Home
+                           <Link href="/home">
+                              <a className="footer-menu">Home</a>
                            </Link>
                         </li>
                         <li>
-                           <Link className="footer-menu" href="/aboutus">
-                              About Us
+                           <Link href="/aboutus">
+                              <a className="footer-menu">About Us</a>
                            </Link>
                         </li>
                         <li>
-                           <Link className="footer-menu" href="/cafemenu">
-                              Cafe Menu
+                           <Link href="/cafemenu">
+                              <a className="footer-menu">Cafe Menu</a>
                            </Link>
                         </li>
                         <li>
-                           <Link className="footer-menu" href="/adoptcat">
-                              Adopt a cat
+                           <Link href="/adoptcat">
+                              <a className="footer-menu">Adopt a cat</a>
                            </Link>
                         </li>
                         <li>
-                           <Link className="footer-menu" href="/contactus">
-                              Contact Us
+                           <Link href="/contactus">
+                              <a className="footer-menu">Contact Us</a>
                            </Link>
                         </li>
                      </ul>
